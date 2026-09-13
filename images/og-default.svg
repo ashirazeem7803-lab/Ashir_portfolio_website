@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="a" cx="15%" cy="10%" r="80%">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#050914" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="90%" cy="95%" r="80%">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#050914" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#050914"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200M150 0v630M300 0v630M450 0v630M600 0v630M750 0v630M900 0v630M1050 0v630"/>
+  </g>
+  <text x="100" y="260" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#a6adbb" font-weight="500">Syed Ashir Azeem</text>
+  <text x="100" y="350" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#ffffff" letter-spacing="-2">Laravel / PHP Developer</text>
+  <text x="100" y="420" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="url(#t)" font-weight="600">Business systems · Admin panels · APIs</text>
+  <text x="100" y="540" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#6b7280">Rawalpindi, Pakistan</text>
+</svg>
