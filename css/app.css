@@ -1422,4 +1422,21 @@ html.light .next-project { border-color: #E2E8F0; }
   .hero-actions .btn { flex: 1 1 100%; }
   .hero-meta { gap: 14px; }
   .about-points { grid-template-columns: 1fr; }
+
+  /* Hide code window on mobile - show only text */
+  .hero-visual { display: none; }
+  .hero-visual-ring { display: none; }
+
+  /* Hero text improvements on mobile */
+  .hero { padding-top: 80px; padding-bottom: 40px; }
+  .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
+  .hero-greeting { font-size: clamp(0.9rem, 3.5vw, 1.1rem); }
+  .hero-desc { font-size: 0.97rem; }
+  .hero-badge { font-size: 0.8rem; }
+  .hero-actions { flex-direction: column; gap: 10px; }
+  .hero-actions .btn { width: 100%; text-align: center; justify-content: center; }
+
+  /* Banner section on mobile */
+  .section { padding-top: 40px; padding-bottom: 40px; }
 }
+
